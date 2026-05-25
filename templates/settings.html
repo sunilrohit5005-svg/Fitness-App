@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card">
+        <h2>Edit Profile ⚙️</h2>
+        <p class="subtitle">Update your stats to keep calorie math accurate.</p>
+
+        <form action="/update_settings/{{ username }}" method="post">
+            
+            <label>Full Name</label>
+            <input type="text" name="name" value="{{ user.name }}" required>
+
+            <div style="display:flex; gap:10px;">
+                <div style="flex:1;">
+                    <label>Age</label>
+                    <input type="number" name="age" value="{{ user.age }}" required>
+                </div>
+                <div style="flex:1;">
+                    <label>Weight (kg)</label>
+                    <input type="number" name="weight" step="0.1" value="{{ user.weight }}" required>
+                </div>
+            </div>
+
+            <hr style="border:0; border-top:1px solid #e2e8f0; margin: 10px 0 20px 0;">
+
+            <label>New Password <span style="font-weight:400; color:#94a3b8;">(Optional)</span></label>
+            <input type="password" name="password" placeholder="Leave blank to keep current">
+
+            <button type="submit">Save Changes</button>
+        </form>
+
+        <div class="footer-text">
+            <a href="{{ url_for('dashboard', username=username) }}" style="color:#64748b;">Cancel and go back</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

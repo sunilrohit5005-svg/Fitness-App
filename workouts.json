@@ -1,0 +1,4936 @@
+{
+    "Uday Kiran": [
+        {
+            "date": "2025-01-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "50"
+        },
+        {
+            "date": "2025-01-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "18"
+        },
+        {
+            "date": "2025-01-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-01-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "25"
+        },
+        {
+            "date": "2025-01-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "70"
+        },
+        {
+            "date": "2025-01-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "120"
+        },
+        {
+            "date": "2025-01-04",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-01-04",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "30"
+        },
+        {
+            "date": "2025-01-05",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "80"
+        },
+        {
+            "date": "2025-01-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "5",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "35"
+        },
+        {
+            "date": "2025-01-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "50"
+        },
+        {
+            "date": "2025-01-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "40"
+        },
+        {
+            "date": "2025-01-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "20",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-01-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "16"
+        },
+        {
+            "date": "2025-01-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "60"
+        },
+        {
+            "date": "2025-01-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "16"
+        },
+        {
+            "date": "2025-01-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "55"
+        },
+        {
+            "date": "2025-01-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "18"
+        },
+        {
+            "date": "2025-01-12",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "55"
+        },
+        {
+            "date": "2025-01-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "25"
+        },
+        {
+            "date": "2025-01-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "40"
+        },
+        {
+            "date": "2025-01-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "45"
+        },
+        {
+            "date": "2025-01-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "30"
+        },
+        {
+            "date": "2025-01-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "10"
+        },
+        {
+            "date": "2025-01-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-01-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "27.5"
+        },
+        {
+            "date": "2025-01-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "75"
+        },
+        {
+            "date": "2025-01-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "130"
+        },
+        {
+            "date": "2025-01-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-01-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "8",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-19",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "85"
+        },
+        {
+            "date": "2025-01-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "6",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "60"
+        },
+        {
+            "date": "2025-01-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "55"
+        },
+        {
+            "date": "2025-01-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-01-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "10",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-01-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "18"
+        },
+        {
+            "date": "2025-01-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-01-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-01-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "20"
+        },
+        {
+            "date": "2025-01-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-01-26",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "50"
+        },
+        {
+            "date": "2025-01-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "22.5"
+        },
+        {
+            "date": "2025-01-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "135"
+        },
+        {
+            "date": "2025-01-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "60"
+        },
+        {
+            "date": "2025-01-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "60"
+        },
+        {
+            "date": "2025-01-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "25",
+            "weight": "0"
+        },
+        {
+            "date": "2025-01-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "90"
+        },
+        {
+            "date": "2025-01-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "30"
+        },
+        {
+            "date": "2025-01-31",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "6",
+            "weight": "80"
+        },
+        {
+            "date": "2025-01-31",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "45"
+        },
+        {
+            "date": "2025-02-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "60"
+        },
+        {
+            "date": "2025-02-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "20"
+        },
+        {
+            "date": "2025-02-02",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-03",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-02-03",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "27.5"
+        },
+        {
+            "date": "2025-02-04",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-02-04",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "140"
+        },
+        {
+            "date": "2025-02-05",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-02-05",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-02-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "95"
+        },
+        {
+            "date": "2025-02-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "6",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-02-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "55"
+        },
+        {
+            "date": "2025-02-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "45"
+        },
+        {
+            "date": "2025-02-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "22",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-09",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-10",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-02-10",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "18"
+        },
+        {
+            "date": "2025-02-11",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "65"
+        },
+        {
+            "date": "2025-02-11",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "18"
+        },
+        {
+            "date": "2025-02-12",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "65"
+        },
+        {
+            "date": "2025-02-12",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "20"
+        },
+        {
+            "date": "2025-02-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "60"
+        },
+        {
+            "date": "2025-02-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "30"
+        },
+        {
+            "date": "2025-02-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "45"
+        },
+        {
+            "date": "2025-02-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "50"
+        },
+        {
+            "date": "2025-02-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-02-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "12"
+        },
+        {
+            "date": "2025-02-16",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-17",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-02-17",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "30"
+        },
+        {
+            "date": "2025-02-18",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "85"
+        },
+        {
+            "date": "2025-02-18",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "145"
+        },
+        {
+            "date": "2025-02-19",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-02-19",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "10",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "100"
+        },
+        {
+            "date": "2025-02-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "7",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "65"
+        },
+        {
+            "date": "2025-02-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "60"
+        },
+        {
+            "date": "2025-02-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-02-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "12",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-23",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-02-24",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-02-24",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "20"
+        },
+        {
+            "date": "2025-02-25",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "87.5"
+        },
+        {
+            "date": "2025-02-25",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-02-26",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "22.5"
+        },
+        {
+            "date": "2025-02-26",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "35"
+        },
+        {
+            "date": "2025-02-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "55"
+        },
+        {
+            "date": "2025-02-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "25"
+        },
+        {
+            "date": "2025-02-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "150"
+        },
+        {
+            "date": "2025-02-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "65"
+        },
+        {
+            "date": "2025-03-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "70"
+        },
+        {
+            "date": "2025-03-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "22"
+        },
+        {
+            "date": "2025-03-02",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-03",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-03-03",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-03-04",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "90"
+        },
+        {
+            "date": "2025-03-04",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "155"
+        },
+        {
+            "date": "2025-03-05",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-03-05",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "35"
+        },
+        {
+            "date": "2025-03-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "105"
+        },
+        {
+            "date": "2025-03-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "8",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-03-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "60"
+        },
+        {
+            "date": "2025-03-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "50"
+        },
+        {
+            "date": "2025-03-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "25",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-09",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-10",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-03-10",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "20"
+        },
+        {
+            "date": "2025-03-11",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "70"
+        },
+        {
+            "date": "2025-03-11",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "20"
+        },
+        {
+            "date": "2025-03-12",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "75"
+        },
+        {
+            "date": "2025-03-12",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "22"
+        },
+        {
+            "date": "2025-03-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "65"
+        },
+        {
+            "date": "2025-03-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-03-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "50"
+        },
+        {
+            "date": "2025-03-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "55"
+        },
+        {
+            "date": "2025-03-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "35"
+        },
+        {
+            "date": "2025-03-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "14"
+        },
+        {
+            "date": "2025-03-16",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-17",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "60"
+        },
+        {
+            "date": "2025-03-17",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-03-18",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "92.5"
+        },
+        {
+            "date": "2025-03-18",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "160"
+        },
+        {
+            "date": "2025-03-19",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-03-19",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "12",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "110"
+        },
+        {
+            "date": "2025-03-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "9",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "70"
+        },
+        {
+            "date": "2025-03-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "65"
+        },
+        {
+            "date": "2025-03-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-03-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "12",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-23",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-24",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-03-24",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "22"
+        },
+        {
+            "date": "2025-03-25",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "95"
+        },
+        {
+            "date": "2025-03-25",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-03-26",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "25"
+        },
+        {
+            "date": "2025-03-26",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-03-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-03-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "27.5"
+        },
+        {
+            "date": "2025-03-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "165"
+        },
+        {
+            "date": "2025-03-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "70"
+        },
+        {
+            "date": "2025-03-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "80"
+        },
+        {
+            "date": "2025-03-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "30",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-30",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-03-31",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "115"
+        },
+        {
+            "date": "2025-03-31",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "35"
+        },
+        {
+            "date": "2025-04-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-04-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "24"
+        },
+        {
+            "date": "2025-04-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "65"
+        },
+        {
+            "date": "2025-04-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "35"
+        },
+        {
+            "date": "2025-04-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "97.5"
+        },
+        {
+            "date": "2025-04-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "170"
+        },
+        {
+            "date": "2025-04-04",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "85"
+        },
+        {
+            "date": "2025-04-04",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-04-05",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "120"
+        },
+        {
+            "date": "2025-04-05",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "10",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-06",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-04-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "65"
+        },
+        {
+            "date": "2025-04-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "55"
+        },
+        {
+            "date": "2025-04-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "30",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "55"
+        },
+        {
+            "date": "2025-04-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "22"
+        },
+        {
+            "date": "2025-04-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "75"
+        },
+        {
+            "date": "2025-04-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "22"
+        },
+        {
+            "date": "2025-04-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "87.5"
+        },
+        {
+            "date": "2025-04-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "24"
+        },
+        {
+            "date": "2025-04-12",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "70"
+        },
+        {
+            "date": "2025-04-12",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-04-13",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "55"
+        },
+        {
+            "date": "2025-04-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "60"
+        },
+        {
+            "date": "2025-04-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "40"
+        },
+        {
+            "date": "2025-04-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "16"
+        },
+        {
+            "date": "2025-04-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-04-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "35"
+        },
+        {
+            "date": "2025-04-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "100"
+        },
+        {
+            "date": "2025-04-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "175"
+        },
+        {
+            "date": "2025-04-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-04-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "12",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-19",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "125"
+        },
+        {
+            "date": "2025-04-19",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "11",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-20",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "75"
+        },
+        {
+            "date": "2025-04-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "70"
+        },
+        {
+            "date": "2025-04-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "90"
+        },
+        {
+            "date": "2025-04-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "12",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-04-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "24"
+        },
+        {
+            "date": "2025-04-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "102.5"
+        },
+        {
+            "date": "2025-04-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "55"
+        },
+        {
+            "date": "2025-04-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "27.5"
+        },
+        {
+            "date": "2025-04-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-04-26",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "70"
+        },
+        {
+            "date": "2025-04-26",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "30"
+        },
+        {
+            "date": "2025-04-27",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "180"
+        },
+        {
+            "date": "2025-04-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "75"
+        },
+        {
+            "date": "2025-04-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "92.5"
+        },
+        {
+            "date": "2025-04-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "35",
+            "weight": "0"
+        },
+        {
+            "date": "2025-04-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "130"
+        },
+        {
+            "date": "2025-04-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "40"
+        },
+        {
+            "date": "2025-05-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "95"
+        },
+        {
+            "date": "2025-05-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "26"
+        },
+        {
+            "date": "2025-05-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-05-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-05-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "105"
+        },
+        {
+            "date": "2025-05-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "160"
+        },
+        {
+            "date": "2025-05-04",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-05",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "97.5"
+        },
+        {
+            "date": "2025-05-05",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "40"
+        },
+        {
+            "date": "2025-05-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "135"
+        },
+        {
+            "date": "2025-05-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "12",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-05-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "70"
+        },
+        {
+            "date": "2025-05-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "60"
+        },
+        {
+            "date": "2025-05-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "35",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-05-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "26"
+        },
+        {
+            "date": "2025-05-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "80"
+        },
+        {
+            "date": "2025-05-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "24"
+        },
+        {
+            "date": "2025-05-11",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-12",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "90"
+        },
+        {
+            "date": "2025-05-12",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "26"
+        },
+        {
+            "date": "2025-05-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "75"
+        },
+        {
+            "date": "2025-05-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-05-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-05-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "65"
+        },
+        {
+            "date": "2025-05-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "45"
+        },
+        {
+            "date": "2025-05-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "18"
+        },
+        {
+            "date": "2025-05-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "75"
+        },
+        {
+            "date": "2025-05-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-05-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "107.5"
+        },
+        {
+            "date": "2025-05-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "110"
+        },
+        {
+            "date": "2025-05-18",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-19",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-05-19",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "14",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "140"
+        },
+        {
+            "date": "2025-05-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "13",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "80"
+        },
+        {
+            "date": "2025-05-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "75"
+        },
+        {
+            "date": "2025-05-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "102.5"
+        },
+        {
+            "date": "2025-05-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "14",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-05-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "28"
+        },
+        {
+            "date": "2025-05-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "110"
+        },
+        {
+            "date": "2025-05-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "60"
+        },
+        {
+            "date": "2025-05-25",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-26",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "30"
+        },
+        {
+            "date": "2025-05-26",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-05-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-05-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-05-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "195"
+        },
+        {
+            "date": "2025-05-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "80"
+        },
+        {
+            "date": "2025-05-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "105"
+        },
+        {
+            "date": "2025-05-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "40",
+            "weight": "0"
+        },
+        {
+            "date": "2025-05-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "145"
+        },
+        {
+            "date": "2025-05-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "45"
+        },
+        {
+            "date": "2025-05-31",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "6",
+            "weight": "112.5"
+        },
+        {
+            "date": "2025-05-31",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "60"
+        },
+        {
+            "date": "2025-06-01",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-02",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "107.5"
+        },
+        {
+            "date": "2025-06-02",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "28"
+        },
+        {
+            "date": "2025-06-03",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "80"
+        },
+        {
+            "date": "2025-06-03",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-06-04",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "115"
+        },
+        {
+            "date": "2025-06-04",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "100"
+        },
+        {
+            "date": "2025-06-05",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "90"
+        },
+        {
+            "date": "2025-06-05",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-06-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "150"
+        },
+        {
+            "date": "2025-06-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "14",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-06-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "75"
+        },
+        {
+            "date": "2025-06-08",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-09",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "65"
+        },
+        {
+            "date": "2025-06-09",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "40",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-10",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "60"
+        },
+        {
+            "date": "2025-06-10",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "30"
+        },
+        {
+            "date": "2025-06-11",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-06-11",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "26"
+        },
+        {
+            "date": "2025-06-12",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "112.5"
+        },
+        {
+            "date": "2025-06-12",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "28"
+        },
+        {
+            "date": "2025-06-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "80"
+        },
+        {
+            "date": "2025-06-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-06-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-06-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "70"
+        },
+        {
+            "date": "2025-06-15",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-16",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "50"
+        },
+        {
+            "date": "2025-06-16",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "20"
+        },
+        {
+            "date": "2025-06-17",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-06-17",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-06-18",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "117.5"
+        },
+        {
+            "date": "2025-06-18",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "205"
+        },
+        {
+            "date": "2025-06-19",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-06-19",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "15",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "155"
+        },
+        {
+            "date": "2025-06-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "15",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "85"
+        },
+        {
+            "date": "2025-06-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "80"
+        },
+        {
+            "date": "2025-06-22",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-23",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "115"
+        },
+        {
+            "date": "2025-06-23",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "15",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-24",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-06-24",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32"
+        },
+        {
+            "date": "2025-06-25",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "120"
+        },
+        {
+            "date": "2025-06-25",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "65"
+        },
+        {
+            "date": "2025-06-26",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "32.5"
+        },
+        {
+            "date": "2025-06-26",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-06-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "85"
+        },
+        {
+            "date": "2025-06-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "35"
+        },
+        {
+            "date": "2025-06-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "210"
+        },
+        {
+            "date": "2025-06-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "85"
+        },
+        {
+            "date": "2025-06-29",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-06-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "160"
+        },
+        {
+            "date": "2025-06-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "50"
+        },
+        {
+            "date": "2025-07-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "117.5"
+        },
+        {
+            "date": "2025-07-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "30"
+        },
+        {
+            "date": "2025-07-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "87.5"
+        },
+        {
+            "date": "2025-07-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-07-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "122.5"
+        },
+        {
+            "date": "2025-07-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "215"
+        },
+        {
+            "date": "2025-07-04",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "120"
+        },
+        {
+            "date": "2025-07-04",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "45"
+        },
+        {
+            "date": "2025-07-05",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "165"
+        },
+        {
+            "date": "2025-07-05",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "16",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-06",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-07-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "90"
+        },
+        {
+            "date": "2025-07-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "70"
+        },
+        {
+            "date": "2025-07-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "45",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "65"
+        },
+        {
+            "date": "2025-07-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "34"
+        },
+        {
+            "date": "2025-07-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "85"
+        },
+        {
+            "date": "2025-07-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "28"
+        },
+        {
+            "date": "2025-07-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "122.5"
+        },
+        {
+            "date": "2025-07-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "30"
+        },
+        {
+            "date": "2025-07-12",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "85"
+        },
+        {
+            "date": "2025-07-12",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-07-13",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-07-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "75"
+        },
+        {
+            "date": "2025-07-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "55"
+        },
+        {
+            "date": "2025-07-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "22"
+        },
+        {
+            "date": "2025-07-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "90"
+        },
+        {
+            "date": "2025-07-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-07-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "125"
+        },
+        {
+            "date": "2025-07-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "220"
+        },
+        {
+            "date": "2025-07-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-07-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "16",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-19",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "170"
+        },
+        {
+            "date": "2025-07-19",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "17",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-20",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "90"
+        },
+        {
+            "date": "2025-07-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "90"
+        },
+        {
+            "date": "2025-07-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "125"
+        },
+        {
+            "date": "2025-07-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "16",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "87.5"
+        },
+        {
+            "date": "2025-07-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "36"
+        },
+        {
+            "date": "2025-07-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "127.5"
+        },
+        {
+            "date": "2025-07-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "70"
+        },
+        {
+            "date": "2025-07-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "35"
+        },
+        {
+            "date": "2025-07-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-07-26",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "92.5"
+        },
+        {
+            "date": "2025-07-26",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-07-27",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "225"
+        },
+        {
+            "date": "2025-07-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "95"
+        },
+        {
+            "date": "2025-07-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "127.5"
+        },
+        {
+            "date": "2025-07-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "45",
+            "weight": "0"
+        },
+        {
+            "date": "2025-07-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "175"
+        },
+        {
+            "date": "2025-07-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "55"
+        },
+        {
+            "date": "2025-07-31",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "6",
+            "weight": "130"
+        },
+        {
+            "date": "2025-07-31",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "70"
+        },
+        {
+            "date": "2025-08-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "130"
+        },
+        {
+            "date": "2025-08-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32"
+        },
+        {
+            "date": "2025-08-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "95"
+        },
+        {
+            "date": "2025-08-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-08-03",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-04",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "132.5"
+        },
+        {
+            "date": "2025-08-04",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "230"
+        },
+        {
+            "date": "2025-08-05",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "132.5"
+        },
+        {
+            "date": "2025-08-05",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-08-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "180"
+        },
+        {
+            "date": "2025-08-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "18",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-08-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "100"
+        },
+        {
+            "date": "2025-08-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "75"
+        },
+        {
+            "date": "2025-08-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "50",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "70"
+        },
+        {
+            "date": "2025-08-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "38"
+        },
+        {
+            "date": "2025-08-10",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "135"
+        },
+        {
+            "date": "2025-08-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32"
+        },
+        {
+            "date": "2025-08-12",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "90"
+        },
+        {
+            "date": "2025-08-12",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-08-13",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-08-13",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "80"
+        },
+        {
+            "date": "2025-08-14",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "60"
+        },
+        {
+            "date": "2025-08-14",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "24"
+        },
+        {
+            "date": "2025-08-15",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "97.5"
+        },
+        {
+            "date": "2025-08-15",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-08-16",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "135"
+        },
+        {
+            "date": "2025-08-16",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "235"
+        },
+        {
+            "date": "2025-08-17",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-08-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "18",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-19",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "185"
+        },
+        {
+            "date": "2025-08-19",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "19",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-20",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "95"
+        },
+        {
+            "date": "2025-08-20",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "100"
+        },
+        {
+            "date": "2025-08-21",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "137.5"
+        },
+        {
+            "date": "2025-08-21",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "18",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-22",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "92.5"
+        },
+        {
+            "date": "2025-08-22",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-08-23",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "137.5"
+        },
+        {
+            "date": "2025-08-23",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "75"
+        },
+        {
+            "date": "2025-08-24",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "37.5"
+        },
+        {
+            "date": "2025-08-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-08-26",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "100"
+        },
+        {
+            "date": "2025-08-26",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-08-27",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "240"
+        },
+        {
+            "date": "2025-08-27",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "105"
+        },
+        {
+            "date": "2025-08-28",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "140"
+        },
+        {
+            "date": "2025-08-28",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "50",
+            "weight": "0"
+        },
+        {
+            "date": "2025-08-29",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "190"
+        },
+        {
+            "date": "2025-08-29",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "60"
+        },
+        {
+            "date": "2025-08-30",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "6",
+            "weight": "140"
+        },
+        {
+            "date": "2025-08-30",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "75"
+        },
+        {
+            "date": "2025-08-31",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "142.5"
+        },
+        {
+            "date": "2025-09-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "34"
+        },
+        {
+            "date": "2025-09-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "102.5"
+        },
+        {
+            "date": "2025-09-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-09-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "142.5"
+        },
+        {
+            "date": "2025-09-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "245"
+        },
+        {
+            "date": "2025-09-04",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "145"
+        },
+        {
+            "date": "2025-09-04",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "50"
+        },
+        {
+            "date": "2025-09-05",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "195"
+        },
+        {
+            "date": "2025-09-05",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "20",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-06",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-09-06",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "100"
+        },
+        {
+            "date": "2025-09-07",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "80"
+        },
+        {
+            "date": "2025-09-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "55",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-09-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-09-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "95"
+        },
+        {
+            "date": "2025-09-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "30"
+        },
+        {
+            "date": "2025-09-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "147.5"
+        },
+        {
+            "date": "2025-09-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "34"
+        },
+        {
+            "date": "2025-09-12",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "95"
+        },
+        {
+            "date": "2025-09-12",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "60"
+        },
+        {
+            "date": "2025-09-13",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-09-13",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "80"
+        },
+        {
+            "date": "2025-09-14",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-09-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "24"
+        },
+        {
+            "date": "2025-09-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "105"
+        },
+        {
+            "date": "2025-09-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-09-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "145"
+        },
+        {
+            "date": "2025-09-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "120"
+        },
+        {
+            "date": "2025-09-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-09-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "18",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-19",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "200"
+        },
+        {
+            "date": "2025-09-19",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "21",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-20",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "100"
+        },
+        {
+            "date": "2025-09-20",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "105"
+        },
+        {
+            "date": "2025-09-21",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "150"
+        },
+        {
+            "date": "2025-09-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "18",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "97.5"
+        },
+        {
+            "date": "2025-09-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "42"
+        },
+        {
+            "date": "2025-09-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "147.5"
+        },
+        {
+            "date": "2025-09-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "80"
+        },
+        {
+            "date": "2025-09-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "40"
+        },
+        {
+            "date": "2025-09-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "65"
+        },
+        {
+            "date": "2025-09-26",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "107.5"
+        },
+        {
+            "date": "2025-09-26",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-09-27",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "255"
+        },
+        {
+            "date": "2025-09-27",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "110"
+        },
+        {
+            "date": "2025-09-28",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "152.5"
+        },
+        {
+            "date": "2025-09-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "60",
+            "weight": "0"
+        },
+        {
+            "date": "2025-09-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "205"
+        },
+        {
+            "date": "2025-09-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "62.5"
+        },
+        {
+            "date": "2025-10-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "155"
+        },
+        {
+            "date": "2025-10-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "36"
+        },
+        {
+            "date": "2025-10-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "110"
+        },
+        {
+            "date": "2025-10-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-10-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "150"
+        },
+        {
+            "date": "2025-10-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "260"
+        },
+        {
+            "date": "2025-10-04",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "157.5"
+        },
+        {
+            "date": "2025-10-04",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-10-05",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "210"
+        },
+        {
+            "date": "2025-10-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "22",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-10-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "110"
+        },
+        {
+            "date": "2025-10-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "85"
+        },
+        {
+            "date": "2025-10-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "60",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "75"
+        },
+        {
+            "date": "2025-10-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "44"
+        },
+        {
+            "date": "2025-10-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "100"
+        },
+        {
+            "date": "2025-10-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "32"
+        },
+        {
+            "date": "2025-10-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "160"
+        },
+        {
+            "date": "2025-10-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "36"
+        },
+        {
+            "date": "2025-10-12",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "100"
+        },
+        {
+            "date": "2025-10-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "65"
+        },
+        {
+            "date": "2025-10-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "80"
+        },
+        {
+            "date": "2025-10-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "85"
+        },
+        {
+            "date": "2025-10-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-10-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "26"
+        },
+        {
+            "date": "2025-10-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "112.5"
+        },
+        {
+            "date": "2025-10-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-10-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "152.5"
+        },
+        {
+            "date": "2025-10-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "265"
+        },
+        {
+            "date": "2025-10-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "87.5"
+        },
+        {
+            "date": "2025-10-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "20",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-19",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "215"
+        },
+        {
+            "date": "2025-10-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "23",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "105"
+        },
+        {
+            "date": "2025-10-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "115"
+        },
+        {
+            "date": "2025-10-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "162.5"
+        },
+        {
+            "date": "2025-10-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "20",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "102.5"
+        },
+        {
+            "date": "2025-10-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "46"
+        },
+        {
+            "date": "2025-10-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "155"
+        },
+        {
+            "date": "2025-10-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "85"
+        },
+        {
+            "date": "2025-10-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "42.5"
+        },
+        {
+            "date": "2025-10-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "70"
+        },
+        {
+            "date": "2025-10-26",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "115"
+        },
+        {
+            "date": "2025-10-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-10-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "270"
+        },
+        {
+            "date": "2025-10-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "120"
+        },
+        {
+            "date": "2025-10-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "165"
+        },
+        {
+            "date": "2025-10-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "65",
+            "weight": "0"
+        },
+        {
+            "date": "2025-10-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "220"
+        },
+        {
+            "date": "2025-10-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "67.5"
+        },
+        {
+            "date": "2025-10-31",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "6",
+            "weight": "157.5"
+        },
+        {
+            "date": "2025-10-31",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "82.5"
+        },
+        {
+            "date": "2025-11-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "167.5"
+        },
+        {
+            "date": "2025-11-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "38"
+        },
+        {
+            "date": "2025-11-02",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-03",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "117.5"
+        },
+        {
+            "date": "2025-11-03",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-11-04",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "160"
+        },
+        {
+            "date": "2025-11-04",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "275"
+        },
+        {
+            "date": "2025-11-05",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "6",
+            "weight": "170"
+        },
+        {
+            "date": "2025-11-05",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "55"
+        },
+        {
+            "date": "2025-11-06",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "225"
+        },
+        {
+            "date": "2025-11-06",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "24",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-07",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "87.5"
+        },
+        {
+            "date": "2025-11-07",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "125"
+        },
+        {
+            "date": "2025-11-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "90"
+        },
+        {
+            "date": "2025-11-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "70",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-09",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-10",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "80"
+        },
+        {
+            "date": "2025-11-10",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "48"
+        },
+        {
+            "date": "2025-11-11",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "105"
+        },
+        {
+            "date": "2025-11-11",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "34"
+        },
+        {
+            "date": "2025-11-12",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "172.5"
+        },
+        {
+            "date": "2025-11-12",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "38"
+        },
+        {
+            "date": "2025-11-13",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "105"
+        },
+        {
+            "date": "2025-11-13",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "70"
+        },
+        {
+            "date": "2025-11-14",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "85"
+        },
+        {
+            "date": "2025-11-14",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "90"
+        },
+        {
+            "date": "2025-11-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-11-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "28"
+        },
+        {
+            "date": "2025-11-16",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-17",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "120"
+        },
+        {
+            "date": "2025-11-17",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-11-18",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "162.5"
+        },
+        {
+            "date": "2025-11-18",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "280"
+        },
+        {
+            "date": "2025-11-19",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "92.5"
+        },
+        {
+            "date": "2025-11-19",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "22",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-20",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "230"
+        },
+        {
+            "date": "2025-11-20",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "25",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-21",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "110"
+        },
+        {
+            "date": "2025-11-21",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "130"
+        },
+        {
+            "date": "2025-11-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "175"
+        },
+        {
+            "date": "2025-11-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "22",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-23",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-24",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "107.5"
+        },
+        {
+            "date": "2025-11-24",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-11-25",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "165"
+        },
+        {
+            "date": "2025-11-25",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "90"
+        },
+        {
+            "date": "2025-11-26",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "45"
+        },
+        {
+            "date": "2025-11-26",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "75"
+        },
+        {
+            "date": "2025-11-27",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "122.5"
+        },
+        {
+            "date": "2025-11-27",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-11-28",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "285"
+        },
+        {
+            "date": "2025-11-28",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "135"
+        },
+        {
+            "date": "2025-11-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "177.5"
+        },
+        {
+            "date": "2025-11-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "75",
+            "weight": "0"
+        },
+        {
+            "date": "2025-11-30",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-01",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "180"
+        },
+        {
+            "date": "2025-12-01",
+            "exercise": "Incline Dumbbell Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-12-02",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "125"
+        },
+        {
+            "date": "2025-12-02",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "55"
+        },
+        {
+            "date": "2025-12-03",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "8",
+            "weight": "167.5"
+        },
+        {
+            "date": "2025-12-03",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "290"
+        },
+        {
+            "date": "2025-12-04",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "6",
+            "weight": "182.5"
+        },
+        {
+            "date": "2025-12-04",
+            "exercise": "Triceps Pushdown",
+            "sets": "3",
+            "reps": "15",
+            "weight": "57.5"
+        },
+        {
+            "date": "2025-12-05",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "235"
+        },
+        {
+            "date": "2025-12-05",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "26",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-06",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "92.5"
+        },
+        {
+            "date": "2025-12-06",
+            "exercise": "Standing Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "140"
+        },
+        {
+            "date": "2025-12-07",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-08",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "8",
+            "weight": "95"
+        },
+        {
+            "date": "2025-12-08",
+            "exercise": "Push Ups",
+            "sets": "4",
+            "reps": "80",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-09",
+            "exercise": "Seated Cable Row",
+            "sets": "4",
+            "reps": "12",
+            "weight": "85"
+        },
+        {
+            "date": "2025-12-09",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "52"
+        },
+        {
+            "date": "2025-12-10",
+            "exercise": "Front Squat",
+            "sets": "4",
+            "reps": "6",
+            "weight": "110"
+        },
+        {
+            "date": "2025-12-10",
+            "exercise": "Lunges",
+            "sets": "3",
+            "reps": "14",
+            "weight": "36"
+        },
+        {
+            "date": "2025-12-11",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "8",
+            "weight": "185"
+        },
+        {
+            "date": "2025-12-11",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2025-12-12",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "110"
+        },
+        {
+            "date": "2025-12-12",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "72.5"
+        },
+        {
+            "date": "2025-12-13",
+            "exercise": "Leg Extension",
+            "sets": "3",
+            "reps": "15",
+            "weight": "90"
+        },
+        {
+            "date": "2025-12-13",
+            "exercise": "Seated Calf Raise",
+            "sets": "4",
+            "reps": "15",
+            "weight": "95"
+        },
+        {
+            "date": "2025-12-14",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-15",
+            "exercise": "Shoulder Press",
+            "sets": "4",
+            "reps": "10",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-12-15",
+            "exercise": "Lateral Raises",
+            "sets": "3",
+            "reps": "15",
+            "weight": "30"
+        },
+        {
+            "date": "2025-12-16",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "12",
+            "weight": "127.5"
+        },
+        {
+            "date": "2025-12-16",
+            "exercise": "EZ Bar Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "52.5"
+        },
+        {
+            "date": "2025-12-17",
+            "exercise": "Back Squat",
+            "sets": "4",
+            "reps": "8",
+            "weight": "170"
+        },
+        {
+            "date": "2025-12-17",
+            "exercise": "Leg Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "295"
+        },
+        {
+            "date": "2025-12-18",
+            "exercise": "Incline Bench Press",
+            "sets": "4",
+            "reps": "6",
+            "weight": "97.5"
+        },
+        {
+            "date": "2025-12-18",
+            "exercise": "Dips",
+            "sets": "3",
+            "reps": "24",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-19",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "5",
+            "weight": "240"
+        },
+        {
+            "date": "2025-12-19",
+            "exercise": "Pull Ups",
+            "sets": "3",
+            "reps": "27",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-20",
+            "exercise": "Romanian Deadlift",
+            "sets": "3",
+            "reps": "10",
+            "weight": "115"
+        },
+        {
+            "date": "2025-12-20",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "145"
+        },
+        {
+            "date": "2025-12-21",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-22",
+            "exercise": "Bench Press",
+            "sets": "4",
+            "reps": "6",
+            "weight": "187.5"
+        },
+        {
+            "date": "2025-12-22",
+            "exercise": "Triceps Dips",
+            "sets": "3",
+            "reps": "24",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-23",
+            "exercise": "Barbell Row",
+            "sets": "4",
+            "reps": "10",
+            "weight": "112.5"
+        },
+        {
+            "date": "2025-12-23",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "54"
+        },
+        {
+            "date": "2025-12-24",
+            "exercise": "Squat (Barbell)",
+            "sets": "4",
+            "reps": "6",
+            "weight": "172.5"
+        },
+        {
+            "date": "2025-12-24",
+            "exercise": "Leg Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "95"
+        },
+        {
+            "date": "2025-12-25",
+            "exercise": "Chest Fly (Cable)",
+            "sets": "3",
+            "reps": "15",
+            "weight": "47.5"
+        },
+        {
+            "date": "2025-12-25",
+            "exercise": "Shoulder Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "80"
+        },
+        {
+            "date": "2025-12-26",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "130"
+        },
+        {
+            "date": "2025-12-26",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "50"
+        },
+        {
+            "date": "2025-12-27",
+            "exercise": "Leg Press",
+            "sets": "4",
+            "reps": "12",
+            "weight": "300"
+        },
+        {
+            "date": "2025-12-27",
+            "exercise": "Calf Raise",
+            "sets": "4",
+            "reps": "20",
+            "weight": "150"
+        },
+        {
+            "date": "2025-12-28",
+            "exercise": "Rest Day",
+            "sets": "0",
+            "reps": "0",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-29",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "5",
+            "weight": "190"
+        },
+        {
+            "date": "2025-12-29",
+            "exercise": "Push Ups",
+            "sets": "3",
+            "reps": "85",
+            "weight": "0"
+        },
+        {
+            "date": "2025-12-30",
+            "exercise": "Deadlift",
+            "sets": "3",
+            "reps": "3",
+            "weight": "245"
+        },
+        {
+            "date": "2025-12-30",
+            "exercise": "Face Pulls",
+            "sets": "3",
+            "reps": "15",
+            "weight": "75"
+        },
+        {
+            "date": "2025-12-31",
+            "exercise": "Bench Press",
+            "sets": "1",
+            "reps": "1",
+            "weight": "195"
+        },
+        {
+            "date": "2026-01-06",
+            "exercise": "Bench Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "60"
+        },
+        {
+            "date": "2026-01-06",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "10",
+            "weight": "40"
+        },
+        {
+            "date": "2026-01-06",
+            "exercise": "Dips (Chest Focus)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "10"
+        },
+        {
+            "date": "2026-01-06",
+            "exercise": "Tricep Pushdown",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2026-01-06",
+            "exercise": "Skullcrushers",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2025-01-05",
+            "exercise": "Lat Pulldown",
+            "sets": "4",
+            "reps": "10",
+            "weight": "77.5"
+        },
+        {
+            "date": "2025-01-05",
+            "exercise": "Preacher Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "32.5"
+        },
+        {
+            "date": "2026-03-17",
+            "exercise": "Romanian Deadlift (RDL)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "120"
+        },
+        {
+            "date": "2026-03-18",
+            "exercise": "Arnold Press",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2026-03-18",
+            "exercise": "Front Raises",
+            "sets": "4",
+            "reps": "15",
+            "weight": "25"
+        },
+        {
+            "date": "2026-03-22",
+            "exercise": "Barbell Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "20"
+        },
+        {
+            "date": "2026-03-22",
+            "exercise": "Skullcrushers",
+            "sets": "3",
+            "reps": "12",
+            "weight": "15"
+        },
+        {
+            "date": "2026-03-22",
+            "exercise": "Hammer Curl",
+            "sets": "3",
+            "reps": "12",
+            "weight": "40"
+        },
+        {
+            "date": "2026-03-22",
+            "exercise": "Tricep Pushdown",
+            "sets": "3",
+            "reps": "12",
+            "weight": "45"
+        },
+        {
+            "date": "2026-03-23",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "3",
+            "reps": "12",
+            "weight": "60"
+        },
+        {
+            "date": "2026-03-23",
+            "exercise": "Skullcrushers",
+            "sets": "3",
+            "reps": "15",
+            "weight": "25"
+        },
+        {
+            "date": "2026-03-23",
+            "exercise": "Barbell Row",
+            "sets": "12",
+            "reps": "15",
+            "weight": "50"
+        },
+        {
+            "date": "2026-03-23",
+            "exercise": "Box Jumps",
+            "sets": "3",
+            "reps": "12",
+            "weight": "50"
+        }
+    ],
+    "varsha": [
+        {
+            "date": "2026-03-16",
+            "exercise": "Chest Fly (Dumbbell)",
+            "sets": "8",
+            "reps": "5",
+            "weight": "50"
+        },
+        {
+            "date": "2026-03-16",
+            "exercise": "Barbell Curl",
+            "sets": "2",
+            "reps": "14",
+            "weight": "50"
+        }
+    ],
+    "Sunil": [
+        {
+            "date": "2026-05-16",
+            "exercise": "Cable Crossover",
+            "sets": "3",
+            "reps": "10",
+            "weight": "30"
+        },
+        {
+            "date": "2026-05-16",
+            "exercise": "Decline Bench Press",
+            "sets": "3",
+            "reps": "10",
+            "weight": "40"
+        },
+        {
+            "date": "2026-05-16",
+            "exercise": "Jumping Jacks",
+            "sets": "5",
+            "reps": "20",
+            "weight": "0"
+        },
+        {
+            "date": "2026-05-17",
+            "exercise": "Dumbbell Row",
+            "sets": "5",
+            "reps": "5",
+            "weight": "40"
+        },
+        {
+            "date": "2026-05-17",
+            "exercise": "Dumbbell Row",
+            "sets": "3",
+            "reps": "10",
+            "weight": "20"
+        },
+        {
+            "date": "2026-05-17",
+            "exercise": "Dips (Tricep Focus)",
+            "sets": "3",
+            "reps": "10",
+            "weight": "45"
+        },
+        {
+            "date": "2026-05-17",
+            "exercise": "Leg Raises",
+            "sets": "5",
+            "reps": "11",
+            "weight": "50"
+        }
+    ]
+}

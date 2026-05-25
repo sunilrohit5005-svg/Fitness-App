@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workout Summary - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card">
+
+        <h2>Workout Summary</h2>
+        <p class="subtitle">Here's how your session went 💪</p>
+
+        <h3>Total Calories Burned: <span class="highlight">{{ total }} kcal</span></h3>
+
+        <h4>Calories Breakdown</h4>
+        <ul>
+            {% for name, cal in details %}
+                <li>{{ name }} → {{ cal }} kcal</li>
+            {% endfor %}
+        </ul>
+
+        {% if suggestions %}
+            <h4>Suggestions</h4>
+            <ul>
+                {% for msg in suggestions %}
+                    <li>{{ msg }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="subtitle">Great balanced session! 🔥</p>
+        {% endif %}
+
+        <div class="footer-text">
+            <a href="{{ url_for('dashboard', username=username) }}">⬅ Back to dashboard</a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

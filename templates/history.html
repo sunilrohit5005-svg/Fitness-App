@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workout History - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card card-wide">
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <div>
+                <h2 style="margin-bottom:5px;">Workout Calendar</h2>
+                <p class="subtitle" style="margin-top:0;">Select a date to view details 📅</p>
+            </div>
+            <a href="{{ url_for('dashboard', username=username) }}" style="text-decoration:none; font-size:1.5rem;" title="Back to Dashboard">⬅️</a>
+        </div>
+
+        <div class="calendar-container">
+            <div class="calendar-header" style="display:flex; justify-content:space-between; align-items:center;">
+                <div style="display:flex; align-items:center; gap:10px;">
+                    <button onclick="changeMonth(-1)">&#10094;</button>
+                    <h3 id="monthYear" style="margin:0; min-width:150px; text-align:center;"></h3>
+                    <button onclick="changeMonth(1)">&#10095;</button>
+                </div>
+                
+                <button onclick="analyzeMonth()" class="ai-btn" style="background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; border: none; padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);">
+                    ✨ AI Monthly Report
+                </button>
+            </div>
+
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+
+            <div class="days-grid" id="daysGrid"></div>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 20px 0;">
+
+        <div id="detailsSection" style="display: none;">
+            <h3 id="selectedDateTitle">Details</h3>
+            
+            <table style="width:100%; border-collapse:collapse;">
+                <thead>
+                    <tr style="border-bottom:2px solid #e2e8f0; color:#64748b;">
+                        <th style="text-align:left; padding:8px;">Exercise</th>
+                        <th style="text-align:right; padding:8px;">Sets x Reps</th>
+                        <th style="text-align:right; padding:8px;">Weight</th>
+                        <th style="text-align:right; padding:8px;">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="detailsTableBody">
+                    </tbody>
+            </table>
+            <p id="noDataMsg" style="display:none; color:#94a3b8; text-align:center; margin-top:20px;">No workouts logged for this date.</p>
+        </div>
+
+    </div>
+</div>
+
+<div id="aiModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; align-items:center; justify-content:center;">
+    <div style="background:white; width:90%; max-width:500px; padding:25px; border-radius:12px; position:relative; box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+        <button onclick="closeModal()" style="position:absolute; top:10px; right:15px; border:none; background:none; font-size:1.5rem; cursor:pointer;">&times;</button>
+        
+        <h3 style="margin-top:0; color:#0f172a; display:flex; align-items:center; gap:10px;">
+            🤖 Coach's Report
+        </h3>
+        
+        <div id="aiLoader" style="color:#64748b; font-style:italic; margin-top:20px;">
+            Thinking... Analyzing your gains...
+        </div>
+        
+        <div id="aiContent" style="white-space: pre-line; line-height: 1.6; color:#334155; margin-top:15px; font-weight:500;">
+            </div>
+    </div>
+</div>
+
+<script>
+    // Data passed from Flask
+    const workouts = {{ workouts | tojson }};
+    const currentUsername = "{{ username }}";
+    
+    let currentDate = new Date();
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+
+    // 1. Render the Calendar Grid
+    function renderCalendar() {
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+
+        document.getElementById("monthYear").innerText = `${monthNames[month]} ${year}`;
+        
+        const firstDay = new Date(year, month, 1).getDay();
+        const lastDate = new Date(year, month + 1, 0).getDate();
+        
+        const daysGrid = document.getElementById("daysGrid");
+        daysGrid.innerHTML = "";
+
+        // Padding for previous month days
+        for (let i = 0; i < firstDay; i++) {
+            daysGrid.innerHTML += `<div></div>`;
+        }
+
+        // Render actual days
+        for (let i = 1; i <= lastDate; i++) {
+            const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(i).padStart(2, '0')}`;
+            
+            // Check if this date has workouts
+            const hasWorkout = workouts.some(w => w.date === dateStr);
+            const className = hasWorkout ? "day has-workout" : "day";
+
+            daysGrid.innerHTML += `<div class="${className}" onclick="showDetails('${dateStr}', this)">${i}</div>`;
+        }
+    }
+
+    // 2. Show Details when clicking a day
+    function showDetails(dateStr, element) {
+        // Highlight selected day
+        document.querySelectorAll('.day').forEach(d => d.classList.remove('selected'));
+        if(element) element.classList.add('selected');
+
+        const detailsDiv = document.getElementById('detailsSection');
+        const title = document.getElementById('selectedDateTitle');
+        const tbody = document.getElementById('detailsTableBody');
+        const noDataMsg = document.getElementById('noDataMsg');
+
+        detailsDiv.style.display = 'block';
+        title.innerText = "Details for " + dateStr;
+        tbody.innerHTML = "";
+        
+        // Filter workouts for this date
+        // Note: We attach the original index so we can delete the correct item
+        const daysWorkouts = workouts.map((w, index) => ({...w, original_index: index}))
+                                     .filter(w => w.date === dateStr);
+
+        if (daysWorkouts.length > 0) {
+            noDataMsg.style.display = 'none';
+            daysWorkouts.forEach(w => {
+                const weightDisplay = w.weight ? `${w.weight} kg` : '-';
+
+                const row = `
+                    <tr style="border-bottom:1px solid #f1f5f9;">
+                        <td style="padding:10px 5px; font-weight: 500;">${w.exercise}</td>
+                        <td style="text-align:right; padding:10px 5px;">${w.sets} x ${w.reps}</td>
+                        <td style="text-align:right; padding:10px 5px; font-weight:bold; color:#6366f1;">${weightDisplay}</td>
+                        <td style="text-align:right; padding:10px 5px;">
+                            <a href="/delete_workout/${currentUsername}/${w.original_index}" 
+                               style="color:#ef4444; text-decoration:none; font-size:1.1rem;"
+                               title="Delete Entry"
+                               onclick="return confirm('Are you sure you want to delete this?')">
+                               🗑️
+                            </a>
+                        </td>
+                    </tr>
+                `;
+                tbody.innerHTML += row;
+            });
+        } else {
+            noDataMsg.style.display = 'block';
+            noDataMsg.innerText = "No workouts logged for " + dateStr;
+        }
+    }
+
+    function changeMonth(direction) {
+        currentDate.setMonth(currentDate.getMonth() + direction);
+        renderCalendar();
+    }
+
+    // 3. --- NEW: AI ANALYSIS FUNCTION ---
+    async function analyzeMonth() {
+        const modal = document.getElementById("aiModal");
+        const loader = document.getElementById("aiLoader");
+        const content = document.getElementById("aiContent");
+        
+        modal.style.display = "flex";
+        loader.style.display = "block";
+        content.innerText = "";
+
+        const year = currentDate.getFullYear();
+        const month = currentDate.getMonth();
+
+        try {
+            // Call the Python backend
+            const response = await fetch("/analyze_month", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ 
+                    username: currentUsername, 
+                    year: year, 
+                    month: month 
+                })
+            });
+            
+            const data = await response.json();
+            loader.style.display = "none";
+            
+            // Display response
+            content.innerText = data.response;
+            
+        } catch (error) {
+            loader.style.display = "none";
+            content.innerText = "Error connecting to AI Coach. Check your API Key in app.py!";
+        }
+    }
+
+    function closeModal() {
+        document.getElementById("aiModal").style.display = "none";
+    }
+
+    // Initialize the calendar on load
+    renderCalendar();
+</script>
+</body>
+</html>

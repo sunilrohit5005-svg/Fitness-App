@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mr. Olympia Prep - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Gold Theme for Olympia Page */
+        .olympia-card {
+            border: 2px solid #eab308; /* Gold Border */
+            box-shadow: 0 0 20px rgba(234, 179, 8, 0.2);
+        }
+        .gold-text { color: #ca8a04; font-weight: 800; }
+        .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .stat-box { background: #fefce8; border: 1px solid #fef08a; padding: 15px; border-radius: 10px; text-align: center; }
+        .stat-box h4 { margin: 0 0 5px 0; color: #854d0e; font-size: 0.9rem; text-transform: uppercase; }
+        .stat-box .value { font-size: 1.5rem; font-weight: bold; color: #713f12; }
+        
+        /* Comparison Table */
+        .comp-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .comp-table th { background: #000; color: #eab308; padding: 12px; text-align: left; }
+        .comp-table td { padding: 12px; border-bottom: 1px solid #e5e7eb; font-weight: 500; }
+        .comp-table input { width: 80px; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; text-align: center; }
+
+        /* AI Result Area */
+        .result-area { margin-top: 25px; padding: 20px; background: #1a1a1a; color: #e5e5e5; border-radius: 12px; border: 1px solid #333; display: none; }
+        .result-area h3 { color: #eab308; border-bottom: 1px solid #444; padding-bottom: 10px; }
+        .result-area ul { line-height: 1.8; color: #d4d4d4; }
+        .result-area strong { color: #fff; }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card card-wide olympia-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+            <h2 class="gold-text">🏆 MR. OLYMPIA MODE</h2>
+            <a href="{{ url_for('dashboard', username=username) }}" style="font-size:1.5rem; text-decoration:none;">⬅️</a>
+        </div>
+        
+        <p class="subtitle">Compare your stats against the "Golden Ratio" standards and get a pro-level plan.</p>
+
+        <div class="stat-grid">
+            <div class="stat-box">
+                <h4>Target Chest</h4>
+                <div class="value">50"+</div>
+            </div>
+            <div class="stat-box">
+                <h4>Target Arms</h4>
+                <div class="value">20"+</div>
+            </div>
+            <div class="stat-box">
+                <h4>Target Waist</h4>
+                <div class="value">30"-</div>
+            </div>
+            <div class="stat-box">
+                <h4>Target Thighs</h4>
+                <div class="value">28"+</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top:0;">Your Measurements</h3>
+        <table class="comp-table">
+            <thead>
+                <tr>
+                    <th>Body Part</th>
+                    <th>Standard (Ideal)</th>
+                    <th>Your Stats (inches)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chest</td>
+                    <td>50 - 52"</td>
+                    <td><input type="number" id="chest" placeholder="e.g. 40"></td>
+                </tr>
+                <tr>
+                    <td>Arms (Biceps)</td>
+                    <td>20 - 22"</td>
+                    <td><input type="number" id="arms" placeholder="e.g. 15"></td>
+                </tr>
+                <tr>
+                    <td>Waist</td>
+                    <td>28 - 30"</td>
+                    <td><input type="number" id="waist" placeholder="e.g. 32"></td>
+                </tr>
+                <tr>
+                    <td>Thighs (Quads)</td>
+                    <td>28 - 31"</td>
+                    <td><input type="number" id="thighs" placeholder="e.g. 22"></td>
+                </tr>
+                <tr>
+                    <td>Calves</td>
+                    <td>18 - 20"</td>
+                    <td><input type="number" id="calves" placeholder="e.g. 14"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button onclick="generateOlympiaPlan()" class="btn-primary" style="background: #000; color: #eab308; margin-top: 20px; font-weight:800; letter-spacing:1px;">
+            ANALYZE GAP & BUILD PLAN ⚡
+        </button>
+        
+        <div id="loading" style="display:none; text-align:center; color:#ca8a04; margin-top:15px; font-weight:600;">
+            Comparing physique... Consulting the judges... ⏳
+        </div>
+
+        <div id="olympiaResult" class="result-area"></div>
+
+    </div>
+</div>
+
+<script>
+    async function generateOlympiaPlan() {
+        const stats = {
+            chest: document.getElementById('chest').value,
+            arms: document.getElementById('arms').value,
+            waist: document.getElementById('waist').value,
+            thighs: document.getElementById('thighs').value,
+            calves: document.getElementById('calves').value
+        };
+
+        if(!stats.chest || !stats.arms) {
+            alert("Please enter at least Chest and Arm measurements!");
+            return;
+        }
+
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('olympiaResult').style.display = 'none';
+
+        try {
+            const response = await fetch('/generate_olympia_plan', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    username: "{{ username }}",
+                    stats: stats
+                })
+            });
+
+            const data = await response.json();
+            
+            // Render result
+            const resultDiv = document.getElementById('olympiaResult');
+            let cleanHtml = data.plan.replace(/```html/g, "").replace(/```/g, "");
+            resultDiv.innerHTML = cleanHtml;
+            resultDiv.style.display = 'block';
+
+        } catch (e) {
+            alert("Error connecting to AI Coach.");
+        } finally {
+            document.getElementById('loading').style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>

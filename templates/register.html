@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card">
+        <h2>Create Account</h2>
+        <p class="subtitle">Join and start tracking your workouts smarter.</p>
+
+        <form action="/register_user" method="post">
+            <label>Username</label>
+            <input type="text" name="username" required>
+
+            <label>Password</label>
+            <input type="password" name="password" required>
+
+            <label>Full Name</label>
+            <input type="text" name="name" required>
+
+            <label>Age</label>
+            <input type="number" name="age" required>
+
+            <label>Weight (kg)</label>
+            <input type="number" name="weight" step="0.1" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <div class="footer-text">
+            Already have an account?
+            <a href="/">Login here</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

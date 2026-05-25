@@ -1,0 +1,14 @@
+{
+    "Sunil Babu": {
+        "password": "scrypt:32768:8:1$ud27pdUrwn7WLw8f$fed1525d6edaf03e64fed92dbfa8fcf78787d09f5bb50315232dd8341fbc8e8a8c828269775440e45fe6f52d003cfd9fe8e85c8436376dd810af10ed7c56179d",
+        "name": "Sunil",
+        "age": "21",
+        "weight": "55"
+    },
+    "Sunil": {
+        "password": "pbkdf2:sha256:1000000$aTaCzMWu21wd9TIB$56357390b9ea1906848e9aa0b99221f7219baffeb09d332dd74a5b26e061957a",
+        "name": "Botharaju Sunil Babu",
+        "age": "22",
+        "weight": "60"
+    }
+}

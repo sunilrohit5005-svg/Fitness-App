@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Workout - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .workout-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .workout-row select.muscle-select { flex: 1; }
+        .workout-row select.exercise-select { flex: 2; }
+        
+        /* New Styles for inputs */
+        .workout-row input {
+            flex: 1;
+            margin-bottom: 0;
+            min-width: 50px;
+            padding: 8px; /* Compact padding */
+        }
+        
+        /* Make the weight input slightly larger to fit "50, 60, 60" */
+        .workout-row input[name="weight[]"] {
+            flex: 1.5; 
+        }
+
+        .remove-btn {
+            background: #ef4444; 
+            width: auto;
+            padding: 8px 12px;
+            font-size: 0.8rem;
+        }
+        .add-btn {
+            background: #10b981; 
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card" style="width: 800px; max-width: 95%;">
+
+        <h2>Log Workout</h2>
+        <p class="subtitle">Enter weight as single number (e.g. "60") or comma list (e.g. "50, 60, 60")</p>
+
+        <form action="{{ url_for('save_workout', username=username) }}" method="post">
+            
+            <div style="display: flex; gap: 10px; margin-bottom: 5px; font-size: 0.8rem; color: #6b7280; font-weight: 600;">
+                <span style="flex:1">Muscle</span>
+                <span style="flex:2">Exercise</span>
+                <span style="flex:1">Sets</span>
+                <span style="flex:1">Reps</span>
+                <span style="flex:1.5">Weight (kg)</span>
+                <span style="width: 30px"></span> </div>
+
+            <div id="exercise-list">
+                <div class="workout-row">
+                    <select class="muscle-select" onchange="filterExercises(this)" required>
+                        <option value="" disabled selected>Muscle</option>
+                        {% for muscle in exercise_groups.keys() %}
+                            <option value="{{ muscle }}">{{ muscle }}</option>
+                        {% endfor %}
+                    </select>
+
+                    <select name="exercise[]" class="exercise-select" required disabled>
+                        <option value="" disabled selected>Select Muscle First</option>
+                    </select>
+
+                    <input type="number" name="sets[]" placeholder="Sets" required>
+                    <input type="number" name="reps[]" placeholder="Reps" required>
+                    
+                    <input type="text" name="weight[]" placeholder="e.g. 50, 60" required>
+                </div>
+            </div>
+
+            <button type="button" class="add-btn" onclick="addRow()">+ Add Another Exercise</button>
+            <button type="submit">Save Entire Workout</button>
+        </form>
+
+        <div class="footer-text">
+            <a href="{{ url_for('dashboard', username=username) }}">⬅ Back to dashboard</a>
+        </div>
+
+    </div>
+</div>
+
+<script id="groups-data" type="application/json">
+    {{ exercise_groups | tojson | safe }}
+</script>
+
+<script>
+    const exerciseGroups = JSON.parse(document.getElementById('groups-data').textContent);
+
+    function addRow() {
+        const container = document.getElementById('exercise-list');
+        const div = document.createElement('div');
+        div.className = 'workout-row';
+        
+        let muscleOptions = '<option value="" disabled selected>Muscle</option>';
+        for (const muscle in exerciseGroups) {
+            muscleOptions += `<option value="${muscle}">${muscle}</option>`;
+        }
+
+        div.innerHTML = `
+            <select class="muscle-select" onchange="filterExercises(this)" required>
+                ${muscleOptions}
+            </select>
+
+            <select name="exercise[]" class="exercise-select" required disabled>
+                <option value="" disabled selected>Select Muscle First</option>
+            </select>
+
+            <input type="number" name="sets[]" placeholder="Sets" required>
+            <input type="number" name="reps[]" placeholder="Reps" required>
+            <input type="text" name="weight[]" placeholder="e.g. 50, 60" required>
+
+            <button type="button" class="remove-btn" onclick="this.parentElement.remove()">X</button>
+        `;
+        
+        container.appendChild(div);
+    }
+
+    function filterExercises(muscleDropdown) {
+        const row = muscleDropdown.parentElement;
+        const exerciseDropdown = row.querySelector('.exercise-select');
+        const selectedMuscle = muscleDropdown.value;
+        const exercises = exerciseGroups[selectedMuscle];
+
+        exerciseDropdown.innerHTML = '<option value="" disabled selected>Select Exercise</option>';
+        exerciseDropdown.disabled = false;
+
+        if (exercises) {
+            exercises.forEach(ex => {
+                const option = document.createElement('option');
+                option.value = ex;
+                option.textContent = ex;
+                exerciseDropdown.appendChild(option);
+            });
+        }
+    }
+</script>
+</body>
+</html>

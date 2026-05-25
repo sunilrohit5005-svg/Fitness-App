@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Gym Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="card card-wide">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 25px;">
+            <div>
+                <h2 style="margin-bottom: 5px;">Hi, {{ user.name }} 👋</h2>
+                <div style="display:flex; gap:15px; margin-top:15px; margin-bottom:20px;">
+    
+    <!-- 🔥 STREAK -->
+    <div style="flex:1; background:#fef3c7; padding:15px; border-radius:10px; border:1px solid #fcd34d;">
+        <div style="font-size:0.8rem; color:#92400e;">Current Streak</div>
+        <div style="font-size:1.5rem; font-weight:800;">{{ streak }} days 🔥</div>
+    </div>
+
+    <!-- 🏆 BADGE -->
+    <div style="flex:1; background:#ecfeff; padding:15px; border-radius:10px; border:1px solid #67e8f9;">
+        <div style="font-size:0.8rem; color:#0e7490;">Monthly Badge</div>
+        <div style="font-size:1.2rem; font-weight:700;">{{ badge }}</div>
+    </div>
+
+</div>
+                <p class="subtitle">Your fitness command center.</p>
+            </div>
+            
+            <div style="display:flex; gap: 15px; align-items:center;">
+                <a href="{{ url_for('settings_page', username=username) }}" 
+                   style="font-size:1.2rem; text-decoration:none; opacity:0.8; transition:0.2s;" 
+                   title="Settings">
+                   ⚙️
+                </a>
+                <a href="/" style="font-size:0.85rem; color:#ef4444; text-decoration:none; font-weight:500;">Logout</a>
+            </div>
+        </div>
+
+        {% if predictions %}
+        <div style="margin-bottom: 30px;">
+            <h3 style="font-size:0.95rem; text-transform:uppercase; color:#94a3b8; letter-spacing:0.05em; margin-bottom:15px;">
+                AI Strength Coach 🤖
+            </h3>
+            
+            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:12px;">
+                {% for lift, data in predictions.items() %}
+                <div style="background:#f8fafc; border:1px solid #e2e8f0; padding:15px; border-radius:12px; position:relative; overflow:hidden;">
+                    <div style="position:absolute; top:-10px; right:-10px; font-size:4rem; opacity:0.05;">
+                        {% if 'Improving' in data.trend %}📈{% else %}📉{% endif %}
+                    </div>
+
+                    <div style="font-size:0.75rem; color:#64748b; font-weight:600; margin-bottom:5px;">
+                        {{ lift }}
+                    </div>
+                    
+                    <div style="font-size:1.4rem; font-weight:800; color:#0f172a;">
+                        {{ data.suggested_weight }} <span style="font-size:0.9rem; font-weight:500; color:#64748b;">kg</span>
+                    </div>
+                    
+                    <div style="font-size:0.75rem; color:#6366f1; margin-top:4px; font-weight:500;">
+                        Rec: Sets of 8-10
+                    </div>
+
+                    <div style="margin-top:10px; display:inline-block; font-size:0.65rem; padding:3px 8px; border-radius:4px; background:white; border:1px solid #cbd5e1; color:#475569;">
+                        {{ data.trend }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+<h3>🩹 Pain Recovery Assistant</h3>
+
+<select id="muscle">
+    <option>Chest</option>
+    <option>Back</option>
+    <option>Legs</option>
+    <option>Shoulders</option>
+    <option>Biceps</option>
+    <option>Triceps</option>
+    <option>Core</option>
+</select>
+
+<input type="number" id="days" placeholder="Days of pain">
+<input type="number" id="pain" placeholder="Pain level (1-10)">
+
+<button onclick="checkPain()">Check Recovery</button>
+
+<div id="painResult"></div>
+
+
+
+
+
+
+        <!-- 🔥 Graph Controls -->
+<div style="display:flex; gap:10px; margin-bottom:10px;">
+    <button onclick="loadGraph('week')">Week</button>
+    <button onclick="loadGraph('month')">Month</button>
+    <button onclick="loadGraph('year')">Year</button>
+</div>
+
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px; margin-bottom:25px;">
+            <div style="background:#f8fafc; padding:15px; border-radius:12px; border:1px solid #e2e8f0; height:200px;">
+                <canvas id="activityChart"></canvas>
+            </div>
+
+            <div style="background:#f8fafc; padding:20px; border-radius:12px; border:1px solid #e2e8f0;">
+                <h3 style="margin-top:0; font-size:1rem; margin-bottom:15px; color:#334155;">🏆 Personal Records</h3>
+                
+                {% for exercise, weight in prs.items() %}
+                <div style="display:flex; justify-content:space-between; margin-bottom:12px; border-bottom:1px solid #e2e8f0; padding-bottom:8px;">
+                    <span style="color:#64748b; font-size:0.9rem;">{{ exercise }}</span>
+                    <span style="font-weight:700; color:#0f172a;">{{ weight }} kg</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div style="display:flex; gap:15px; margin-top:10px;">
+            <a href="{{ url_for('workout_page', username=username) }}" class="btn-primary" style="text-align:center; text-decoration:none;">
+                + Log Workout
+            </a>
+
+            <a href="{{ url_for('planner_page', username=username) }}" 
+               style="display:flex; align-items:center; justify-content:center; flex:1; background: linear-gradient(135deg, #8b5cf6, #6366f1); border:none; border-radius:8px; color:white; text-decoration:none; font-weight:600; transition:0.2s; box-shadow: 0 4px 6px rgba(139, 92, 246, 0.25);">
+               🧬 AI Plan
+            </a>
+
+            <a href="{{ url_for('workout_history', username=username) }}" 
+               style="display:flex; align-items:center; justify-content:center; flex:1; border:1px solid #e2e8f0; border-radius:8px; color:#475569; text-decoration:none; font-weight:600; transition:0.2s;">
+               History →
+            </a>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="{{ url_for('olympia_page', username=username) }}" 
+               style="display:block; width:100%; text-align:center; padding:12px; background: #000; color: #eab308; text-decoration:none; font-weight:800; border-radius:8px; border: 1px solid #eab308; letter-spacing:0.5px; transition:0.2s;">
+               🏆 ENTER MR. OLYMPIA MODE
+            </a>
+        </div>
+        
+        <div class="footer-text" style="margin-top:25px;">
+            Gym Tracker AI · Predictive analytics for your gains.
+        </div>
+    </div>
+</div>
+
+<script>
+let chart;
+
+function createChart(labels, dataPoints) {
+    const ctx = document.getElementById('activityChart').getContext('2d');
+
+    if (chart) chart.destroy();
+
+    chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Progress',
+                data: dataPoints,
+                borderColor: '#6366f1',
+                backgroundColor: 'rgba(99,102,241,0.2)',
+                tension: 0.4,
+                fill: true,
+                pointRadius: 3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+}
+
+async function loadGraph(range) {
+    try {
+        const response = await fetch(`/get_graph_data?username={{ username }}&range=${range}`);
+        const data = await response.json();
+
+        createChart(data.labels, data.data);
+    } catch (error) {
+        console.error("Graph load error:", error);
+    }
+}
+
+/* 🔥 NEW FEATURE: Pain Recovery Assistant */
+async function checkPain() {
+    const muscle = document.getElementById("muscle").value;
+    const days = document.getElementById("days").value;
+    const pain = document.getElementById("pain").value;
+
+    const resDiv = document.getElementById("painResult");
+    resDiv.innerText = "Analyzing recovery...";
+
+    try {
+        const response = await fetch("/pain_recovery", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+                muscle: muscle,
+                days: days,
+                pain: pain
+            })
+        });
+
+        const data = await response.json();
+        resDiv.innerText = data.response;
+
+    } catch (error) {
+        resDiv.innerText = "Error analyzing recovery.";
+    }
+}
+
+// 🔥 Default load
+loadGraph('week');
+</script>
+</script>
+</body>
+</html> 
